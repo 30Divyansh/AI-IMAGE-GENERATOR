@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "DREAMFLUX",
+  title: "DREAMFLUX MAGIC",
   description: "AI IMAGE GENERATOR  API demo by fal.ai",
   authors: [{ name: "fal.ai", url: "https://fal.ai" }],
   metadataBase: new URL("https://fastsdxl.ai"),

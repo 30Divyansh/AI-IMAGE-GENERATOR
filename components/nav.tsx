@@ -18,7 +18,7 @@ export function Nav() {
       <div className="flex flex-1 items-center">
         <Link href="/">
           <h1 className={cn("font-light text-xl", spaceMono.className)}>
-            <span className="text-pink-500">DREAMFLUX : AI IMAGE GENERATOR </span>
+            <span className="text-pink-500">DREAMFLUX MAGIC: AI IMAGE GENERATOR </span>
           
           </h1>
         </Link>
