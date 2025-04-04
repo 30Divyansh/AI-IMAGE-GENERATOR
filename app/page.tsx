@@ -83,8 +83,9 @@ export default function Lightning() {
           <div className="container px-3 md:px-0 flex flex-col space-y-2">
             <div className="flex flex-col max-md:space-y-4 md:flex-row md:space-x-4 max-w-full">
               <div className="flex-1 space-y-1">
-                <strong ><label>Prompt</label>
-                  </strong>
+                <strong>
+                  <label>Prompt</label>
+                </strong>
                 <Input
                   onChange={(e) => {
                     handleOnChange(e.target.value);
@@ -95,8 +96,10 @@ export default function Lightning() {
                 />
               </div>
               <div className="space-y-1">
-              <strong> <label>Power</label>
-                </strong> 
+                <strong>
+                  {" "}
+                  <label>Power</label>
+                </strong>
                 <Input
                   onChange={(e) => {
                     setSeed(e.target.value);
@@ -134,11 +137,9 @@ export default function Lightning() {
             </div>
           </div>
         </div>
-        
+
         <div className="w-full bg-gradient-to-r from-purple-500 to-indigo-600 py-6">
           <div className="container flex flex-col items-center justify-center my-4">
-           
-
             {/* Contact Links */}
             <div className="flex flex-col items-center text-center space-y-2">
               <a
@@ -170,6 +171,12 @@ export default function Lightning() {
                 <FaGithub size={20} />
                 <span>GitHub</span>
               </a>
+              {/* <span>Made with love by Divyansh Rastogi </span> */}
+              <span className="text-white text-sm font-medium flex items-center space-x-1">
+                <span>Made with</span>
+                <span className="text-red-400 animate-pulse">❤️</span>
+                <span>by Divyansh Rastogi</span>
+              </span>
             </div>
           </div>
         </div>
